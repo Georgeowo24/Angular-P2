@@ -7,6 +7,7 @@ import { GifListItemComponent } from './gif-list-item/gif-list-item.component';
   imports: [GifListItemComponent],
   templateUrl: './gif-list.component.html',
 })
+
 export class GifListComponent {
   gifs = input.required < Gif[] >();
 }

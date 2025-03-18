@@ -1,9 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, inject, Injectable } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 import { GifService } from 'src/app/gifs/services/gifs.service';
-
-
 
 interface MenuOption{
   icon: string;
@@ -14,7 +12,7 @@ interface MenuOption{
 
 @Component({
   selector: 'app-side-menu-options',
-  imports: [RouterLink],
+  imports: [RouterLink, RouterLinkActive],
   templateUrl: './side-menu-options.component.html',
   // styleUrl: './side-menu-options.component.css'
 })

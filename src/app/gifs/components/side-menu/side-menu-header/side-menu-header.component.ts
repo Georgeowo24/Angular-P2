@@ -9,5 +9,5 @@ import { environment } from '@environments/environment.development';
   // styleUrl: './side-menu-header.component.css'
 })
 export class SideMenuHeaderComponent {
-  envs =  environment
+  envs =  environment;
 }

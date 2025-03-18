@@ -5,7 +5,7 @@ export const environment = {
     companySlogan: 'maneja tus gifs',
 
     // Api Keys
-    giphyApiKey: '',
+    giphyApiKey: 'LL3ukqcQ2LTSsMVsQc9Zb9QQxZe3Lhkb',
     giphyUrl: '' // Debe de tener la opción Trending
 };
 
