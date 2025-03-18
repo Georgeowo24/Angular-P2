@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './gif-history.component.html',
   styleUrl: './gif-history.component.css'
 })
-export class GifHistoryComponent {
+export default class GifHistoryComponent {
 
 }

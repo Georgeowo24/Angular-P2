@@ -8,11 +8,19 @@ export const routes: Routes = [
         children: [
             {
                 path: 'trending',
-                loadComponent:()=>import('./gifs/pages/trending-pages/trending-pages.component')
+                loadComponent:()=>import('./gifs/pages/trending-pages/trending-pages.component'),
             },
             {
                 path: 'search',
-                loadComponent:()=>import('')
+                loadComponent:()=>import('./gifs/pages/search-pages/search-pages.component'),
+            },
+            {
+                path: 'history/:query',
+                loadComponent:()=>import('./gifs/pages/gif-history/gif-history.component'),
+            },
+            {
+                path: '**',
+                redirectTo: 'trending',
             }
         ]
     }

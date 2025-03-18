@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './search-pages.component.html',
   styleUrl: './search-pages.component.css'
 })
-export class SearchPagesComponent {
+export default class SearchPagesComponent {
 
 }
