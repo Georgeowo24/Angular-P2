@@ -9,5 +9,5 @@ import { GifListItemComponent } from './gif-list-item/gif-list-item.component';
 })
 
 export class GifListComponent {
-  gifs = input.required < Gif[] >();
+  gifs = input.required <Gif[]>();
 }

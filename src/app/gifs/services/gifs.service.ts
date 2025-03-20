@@ -1,8 +1,8 @@
+import { GiphyResponse } from './../interfaces/giphy.interface';
 import { Gif } from './../interfaces/gif.interface';
 import { HttpClient } from '@angular/common/http';
 import { computed, effect, inject, Injectable, signal } from '@angular/core';
 import { environment } from '@environments/environment';
-import type { GiphyResponse } from './../interfaces/giphy.interfaces';
 import { GifMapper } from '../mapper/gif.mapper';
 import { map, Observable, tap } from 'rxjs';
 

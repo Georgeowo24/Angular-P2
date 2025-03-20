@@ -11,7 +11,7 @@ interface MenuOption{
 }
 
 @Component({
-  selector: 'app-side-menu-options',
+  selector: 'gifs-side-menu-options',
   imports: [RouterLink, RouterLinkActive],
   templateUrl: './side-menu-options.component.html',
   // styleUrl: './side-menu-options.component.css'

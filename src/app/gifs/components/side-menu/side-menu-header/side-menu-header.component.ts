@@ -3,7 +3,7 @@ import { environment } from '@environments/environment.development';
 // import { environment } from '../../../../../environments/environment.development';
 
 @Component({
-  selector: 'app-side-menu-header',
+  selector: 'gifs-side-menu-header',
   imports: [],
   templateUrl: './side-menu-header.component.html',
   // styleUrl: './side-menu-header.component.css'

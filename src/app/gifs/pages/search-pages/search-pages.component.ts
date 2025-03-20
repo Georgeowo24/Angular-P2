@@ -4,7 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-search-pages',
   imports: [],
   templateUrl: './search-pages.component.html',
-  styleUrl: './search-pages.component.css'
 })
 export default class SearchPagesComponent {
 

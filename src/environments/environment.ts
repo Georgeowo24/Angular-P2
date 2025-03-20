@@ -6,7 +6,7 @@ export const environment = {
 
     // Api Keys
     giphyApiKey: 'LL3ukqcQ2LTSsMVsQc9Zb9QQxZe3Lhkb',
-    giphyUrl: '' // Debe de tener la opción Trending
+    giphyUrl: 'https://api.giphy.com/v1' // Debe de tener la opción Trending
 };
 
 
